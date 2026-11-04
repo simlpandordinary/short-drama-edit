@@ -17,13 +17,50 @@
 ## 目录结构
 
 ```
-['SKILL.md', 'agents/openai.yaml', 'assets/remotion/README.md', 'assets/remotion/package.json', 'assets/remotion/remotion.config.ts', 'assets/remotion/src/Overlay.tsx', 'assets/remotion/src/Root.tsx', 'assets/remotion/src/Subtitles.tsx', 'assets/remotion/src/font.ts', 'assets/remotion/src/index.ts', 'assets/remotion/src/rules.mjs', 'assets/remotion/src/schema.ts', 'assets/remotion/src/screen/Card.tsx', 'assets/remotion/src/screen/CornerChip.tsx', 'assets/remotion/src/screen/ScreenText.tsx', 'assets/remotion/src/screen/SystemPanel.tsx', 'assets/remotion/src/screen/TaskPanel.tsx', 'assets/remotion/src/screen/chrome.tsx', 'assets/remotion/src/screen/tokens.ts', 'assets/remotion/tsconfig.json', 'assets/剪辑单.md', 'references/cut-craft.md', 'references/delivery-verify.md', 'references/generated-footage.md', 'references/sound-and-subtitles.md', 'references/stage-contract.md', 'references/still-cuts.md', 'scripts/edit_tool.py', 'scripts/selftest.py', 'LICENSE', 'README.upstream.md']
+├── LICENSE
+├── README.upstream.md
+├── SKILL.md
+├── scripts/
+├── edit_tool.py
+└── selftest.py
+├── references/
+├── cut-craft.md
+├── delivery-verify.md
+├── generated-footage.md
+├── sound-and-subtitles.md
+├── stage-contract.md
+└── still-cuts.md
+├── assets/
+├── 剪辑单.md
+└── remotion/
+├── README.md
+├── package.json
+├── remotion.config.ts
+├── tsconfig.json
+└── src/
+├── Overlay.tsx
+├── Root.tsx
+├── Subtitles.tsx
+├── font.ts
+├── index.ts
+├── rules.mjs
+├── schema.ts
+└── screen/
+├── Card.tsx
+├── CornerChip.tsx
+├── ScreenText.tsx
+├── SystemPanel.tsx
+├── TaskPanel.tsx
+├── chrome.tsx
+└── tokens.ts
+└── agents/
+└── openai.yaml
 ```
 
 - `SKILL.md` 是技能入口（触发条件 / 工作流 / 约束），安装时必须位于技能根目录。
 - `references/`、`scripts/`、`assets/` 为该技能自带的参考文档、脚本与素材。
 - `README.upstream.md` 为上游仓库原始说明，保留出处与版权信息。
-- `LICENSE` 为上游许可证原文。
+- `LICENSE` 为上游许可证原件。
 
 ## 安装
 
@@ -36,8 +73,6 @@ git clone https://github.com/simlpandordinary/short-drama-edit.git ~/.workbuddy/
 也可以直接对 AI 说：「把 <https://github.com/simlpandordinary/short-drama-edit> 装成 Skill」。
 
 安装后用自然语言触发，例如「Drama Skills · short-drama-edit」「用 short-drama-edit 帮我处理这个任务」。
-
-本仓库仅含 Drama Skills 技能包中的 `short-drama` 家族技能之一，其余 10 个技能各自独立成仓。
 
 ## 版权
 
