@@ -21,40 +21,40 @@
 ├── README.upstream.md
 ├── SKILL.md
 ├── scripts/
-├── edit_tool.py
-└── selftest.py
+│   ├── edit_tool.py
+│   └── selftest.py
 ├── references/
-├── cut-craft.md
-├── delivery-verify.md
-├── generated-footage.md
-├── sound-and-subtitles.md
-├── stage-contract.md
-└── still-cuts.md
+│   ├── cut-craft.md
+│   ├── delivery-verify.md
+│   ├── generated-footage.md
+│   ├── sound-and-subtitles.md
+│   ├── stage-contract.md
+│   └── still-cuts.md
 ├── assets/
-├── 剪辑单.md
-└── remotion/
-├── README.md
-├── package.json
-├── remotion.config.ts
-├── tsconfig.json
-└── src/
-├── Overlay.tsx
-├── Root.tsx
-├── Subtitles.tsx
-├── font.ts
-├── index.ts
-├── rules.mjs
-├── schema.ts
-└── screen/
-├── Card.tsx
-├── CornerChip.tsx
-├── ScreenText.tsx
-├── SystemPanel.tsx
-├── TaskPanel.tsx
-├── chrome.tsx
-└── tokens.ts
+│   ├── 剪辑单.md
+│   └── remotion/
+│       ├── README.md
+│       ├── package.json
+│       ├── remotion.config.ts
+│       ├── tsconfig.json
+│       └── src/
+│           ├── Overlay.tsx
+│           ├── Root.tsx
+│           ├── Subtitles.tsx
+│           ├── font.ts
+│           ├── index.ts
+│           ├── rules.mjs
+│           ├── schema.ts
+│           └── screen/
+│               ├── Card.tsx
+│               ├── CornerChip.tsx
+│               ├── ScreenText.tsx
+│               ├── SystemPanel.tsx
+│               ├── TaskPanel.tsx
+│               ├── chrome.tsx
+│               └── tokens.ts
 └── agents/
-└── openai.yaml
+    └── openai.yaml
 ```
 
 - `SKILL.md` 是技能入口（触发条件 / 工作流 / 约束），安装时必须位于技能根目录。
